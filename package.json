@@ -2,6 +2,16 @@
   "name": "ecommerce-app",
   "version": "1.0.0",
   "description": "Responsive E-commerce Website with Node.js, Express, MySQL, MongoDB, Bootstrap 5",
+  "homepage": "https://github.com/MSanaullah7549/My-project#readme",
+  "bugs": {
+    "url": "https://github.com/MSanaullah7549/My-project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MSanaullah7549/My-project.git"
+  },
+  "license": "ISC",
+  "author": "Md Sanaullah",
   "type": "module",
   "main": "backend/server.js",
   "scripts": {
