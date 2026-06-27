@@ -1,0 +1,39 @@
+:root {
+  --primary: #0d6efd;
+  --dark: #0b1220;
+  --light: #f8f9fa;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f4f7fb;
+  color: #20232a;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, rgba(13,110,253,0.9), rgba(13,110,253,0.75)), url('../assets/hero-bg.svg') center/cover no-repeat;
+  min-height: 70vh;
+}
+
+.feature-card {
+  min-height: 120px;
+}
+
+.card {
+  border: none;
+}
+
+.product-card img {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.review-badge {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 767px) {
+  .hero-section {
+    min-height: 55vh;
+  }
+}
